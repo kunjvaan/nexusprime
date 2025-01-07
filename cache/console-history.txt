@@ -1,0 +1,347 @@
+.exit
+console.log("NUSD Contract Owner:", owner);
+const owner = await nusd.owner();
+const nusd = await ethers.getContractAt("NUSD", "<deployed-contract-address>");
+console.log("NUSD Contract Owner:", owner);
+const owner = await nusd.owner();
+const nusd = await ethers.getContractAt("NUSD", "<deployed-contract-address>");
+console.log("NUSD deployed at:", nusd.address
+await nusd.deployed();
+const nusd = await NUSD.deploy("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a");
+const NUSD = await ethers.getContractFactory("NUSD");
+console.log("NUSD Contract Address:", nusd.addressnpx hardhat verify --network sepolia <contract-address> <constructor-arguments>
+console.log("NUSD deployed at:", nusd.address);
+const nusd = await NUSD.deploy("0x964fec1eBc4Eawait nusd.deployed();
+const NUSD = await ethers.getContractFactory("NUSD");
+console.log("Contract Owner Address:", owner);
+const owner = await nusd.owner();
+consoleance));
+const balance = await signer.getBalance();
+consoleance));
+const balance = await signer.getBalance();
+npx hardhat console --network sepolia
+.exit
+console.log("Signer ETH Balance:", ethers.formatEther(balance));
+const balance = await signer.getBalance();
+console.log("Signer ETH Balance:", ethers.formatEther(balance));
+const balance = await signer.getBalance();
+console.log("Signer ETH Balance:", ethers.formatEther(balance));
+const balance = await signer.getBalance();
+console.log("Signer ETH Balance:", ethers.formatEther(balance));
+const balance = await signer.getBalance();
+console.log("Contract Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Contract Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Contract Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Contract Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Contract Owner Address:", owner);
+console.log("Conconst owner = await nusd.owner();
+const owner = await nusd.owner();
+console.log("Contract Owner:", owner);
+const owner = await nusdInstance.owner();
+console.log("Available functions:", functions);
+const functions = Object.keys(nusdInstance.interface.functions);
+console.log("Available functions:", functions);
+const functions = Object.keys(nusdInstance.interface.functions);
+console.log("Available functions:", functions);
+const functions = Object.keys(nusdInstance.interface.functions);
+console.log("Available functions:",
+const functions = Object.keys(nusdInstance.interface.functions);
+console.log("Current Signer Address:", await currentSigner.getAddress());
+console.log("Current Signer Address:", await currconst [currentSigner] = await ethers.getSigners();
+const [currentSigner] = await ethers.getSigners();
+const account = "0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a";
+const nusdInstance = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+.exit
+console.log("\nAvailable functions:", functions);.exit
+console.log("\nAvailable functions:", functions);const functions = Object.keys(nusd.interface.functions);
+console.log("\nAvailable functions:", functconst functions = Object.keys(nusd.interface.functions);
+const functions = Object.keys(nusd.interface.functions);
+    console.log("owner() not found on contract");
+} catch(e) {
+    console.log("Contract owner:", owner);
+    const owner = await nusd.owner();
+try {
+console.log("Connected account:", await signer.getAddress());
+const [signer] = await ethers.getSigner
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+const testAccount = "0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a";
+.exit
+console.log("Contract owner:", owner);
+console.log("Contract owner:", owner);const owner = await nusd.owner();
+console.log("Has minter role:", hasMinterRole);const owner = await nusd.owner();
+const hasMinterRole = await nusd.hasRole(MINTER_ROLE, await signer.getAddress());
+console.log("Has minter role:", hasMinterRole);const MINTER_ROLE = await nusd.MINTER_ROLE();
+const hasMinterRole = await nusd.hasRole(MINTER_ROLE, await signer.getAddress());
+console.log("Has minteconst MINTER_ROLE = await nusd.MINTER_ROLE();
+const hasMinterRole = await nusd.hasRole(MINTER_ROLE, await signer.getAddress());
+console.log("Has minter role:", hasMinterRole);const MINTER_ROLE = await nusd.MINTER_ROLE();
+const hasMinterRole = await nusd.hasRole(MINTER_ROLE, await signer.getAddress());
+console.log("Has minter role:", hasMinterRole);const MINTER_ROLE = await nusd.MINTER_ROLE();
+const hasMinterRole = await nusd.hasRole(MINTER_ROLE, await signer.getAddress());
+r role:", hasMinterRole);const MINTER_ROLE = await nusd.MINTER_ROLE();
+consconsole.log("Has minte
+console.log("Connected account:", await signer.getAddress());const MINTER_ROLE = await nusd.MINTER_ROLE();
+console.log("Connected account:", await signer.getAddress());const [signer] = await ethers.getSigners();
+consolconst [signer] = await ethers.getSigners();
+const [signer] = await ethers.getSigners();
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+const testAccount = "0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a";
+.exit
+console.log("Connected account:", await signer.getAddress());
+console.log("Connected account:", await signer.getAddress());const [signer] = await ethers.getSigners();
+consolconst [signer] = await ethers.getSigners();
+const [signer] = await ethers.getSigners();
+.exit
+console.log("Connected account:", await signer.getAddress());
+console.log("Connected account:", await signer.getAddress());const [signer] = await ethers.getSigners();
+consolconst [signer] = await ethers.getSigners();
+console.log("NUSD Balance:", balance.toString());const [signer] = await ethers.getSigners();
+const balance = await nusd.balanceOf(testAccount);
+await nusd.mint(testAccount, ethers.parseEther("100"));
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+const testAccount = "0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a";
+.exit
+const testAccount = "0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a";
+console.log("NUSD Balance:", balance.toString());
+const balance = await nusd.balanceOf(testAccount);
+await nusd.mint(testAccount, ethers.parseEther("100"));
+const testAccount = "0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a"; // Replace with the actual address
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+const testAccount = 0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a
+.exit
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Cur
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Cur
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Cur
+const owner = await nusd.owner();
+console.log("Current Signer Address:", await signer.getAddress());
+consolconst [signer] = await ethers.getSigners();
+const [signer] = await ethers.getSigners();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Cur
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Cur
+const owner = await nusd.owner();
+.exit
+await nusd.transferOwnership("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a");
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+const owner = await nusd.owner();
+console.log("Current Owner Address:", owner);
+console.log("Curconst owner = await nusd.owner();
+const owner = await nusd.owner();
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+.exit
+await nusd.transferOwnership("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a");
+console.log("Ownership tawait nusd.transferOwnership("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a");
+await nusd.transferOwnership("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a");
+console.log("NUSD Contract Owner:", owner);
+const owner = await nusd.owner();
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+consolddress());
+const [signer] = await ethers.getSigners();
+console.log("NUSD Contract Owner:", owner);
+const owner = await nusd.owner();
+console.log("NUSd
+const owner = await nusd.owner();
+console.log("NUSd
+const owner = await nusd.owner();
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+.exit
+tract Owner:", owner);
+constconsole.log("NUSD Con
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+tract Owner:", owner);
+constconsole.log("NUSD Con
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+tract Owner:", owner);
+constconsole.log("NUSD Con
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+consolddress());
+const [signer] = await ethers.getSigners();
+tract Owner:", owner);
+constconsole.log("NUSD Con
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+tract Owner:", owner);
+constconsole.log("NUSD Con
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+tract Owner:", owner);
+constconsole.log("NUSD Con
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+tract Owner:", owner);
+constconsole.log("NUSD Con
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+tract Owner:", owner);
+constconsole.log("NUSD Con
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+tract Owner:", owner);
+constconsole.log("NUSD Con
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+constconsole.log("NUSD Contract Owner:", owner);
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+constconsole.log("NUSD Contract Owner:", owner);
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+.exit
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("NUSD Contract Owner:", owner);
+const owner = await nusd.owner();
+console.log("NUSD Contract Owner:", owner);
+const owner = await nusd.owner();
+console.log("NUSD Contract Owner:", owner);
+const owner = await nusd.owner();
+console.log("NUSD Contract Owner:", owner);
+console.log("NUSconst owner = await nusd.owner();
+const owner = await nusd.owner();
+await nusd.mint(testAccount, ethers.parseEther("100"));
+const testAccount = "0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a"; // Replace with the actual address
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+.exit
+console.log("Available Signers:", await Promise.all(signers.map(s => s.getAddress())));
+const signers = await ethers.getSigners();
+console.log("Available Signers:", await Promise.all(signers.map(s => s.getAddress())));
+const signers = await ethers.getSigners();
+console
+const signers = await ethers.getSigners();
+.exit
+npx hardhat console --network sepolia
+await nusdContractWithWallet.mint("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a", ethers.parseEther("100"));
+const nusdContractWithWallet = nusdContract.connect(signer);
+console.log("Signer Address:", await signer.getAddress());
+const signer = provider.getSigner();
+const provider = new ethers.providers.Web3Provider(window.ethereum);
+await window.ethereum.request({ method: "eth_requestAccounts" });
+const signer = console.log("Signer Address:", await signer.getAddress());
+const provider = new ethers.providers.Web3Provider(window.ethereum);
+await window.ethereum.request({ method: "eth_requestAccounts" });
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("NUSD Contract Owner:", owner);
+const owner = await nusdContract.owner();
+console.
+const owner = await nusdContract.owner();
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Current Signer Address:", await signer.getAddress());
+consolconst [signer] = await ethers.getSigners();
+const [signer] = await ethers.getSigners();
+console.
+const owner = await nusdContract.owner();
+const nusdContract = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+.exit
+exit
+conso..exit
+const owner = await nusdContract.owner();
+const nusdContract = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+.exit
+> .exit
+npx hardhat console --network sepolia
+console.
+const owner = await nusdContract.owner();
+const nusdContract = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+console
+const owner = await nusdContract.owner();
+const nusdContract = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+exit
+console
+consoleconst [signer] = await ethers.getSigners();
+const owner = await nusdContract.owner();
+const nusdContract = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+npx hardhat console --network sepolia
+console.log("Current Signer Address:", await signer.getAddress
+const [signer] = await ethers.getSigners();
+console.log("NUSD Contract Owner:", owner);
+const owner = await nusdContract.owner();
+await nusdContract.mint("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a", ethers.parseEther("100"));
+console.log("NUSD Contract Owner:", owner);
+console.log("Contract Owner:", owner);const owner = await nusdContract.owner();
+const owner = await nusd.owner();
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("Con
+const owner = await nusd.owner();
+console.log("NUSD Balance:", newBalance.toString());
+const newBalance = await nusdContract.balanceOf("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a");
+const nusdContract = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+npx hardhat console --network sepolia
+console.log("Minted NUSD Balance:", balance.toString());
+const balance = await nusd.balanceOf("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a");
+await nusd.mint("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a", ethers.parseEther("100"));
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+console.log("Current Signer Address:", await signer.getAddress());
+const [signer] = await ethers.getSigners();
+console.log("NUSD Contract Owner:", owner);
+const owner = await nusd.owner();
+console.log("Con
+const owner = await nusd.owner();
+console.log("NUSD Balance:", balance.toString());
+const balance = await nusd.balanceOf("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a");
+await nusd.mint("0x964fec1eBc4E75Ed42E02c1c7407248AF18D260a", ethers.parseEther("100"));
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+npx hardhat console --network sepolia
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
+console.log(balance.toString());
+const balance = await nusd.balanceOf("0xYourTestAccount");
+await"100"));
+const nusd = await ethers.getContractAt("NUSD", "0xDcf8bf453410A458861408253F88390180051678");
