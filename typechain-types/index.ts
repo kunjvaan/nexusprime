@@ -42,6 +42,8 @@ export type { Strings } from "./@openzeppelin/contracts/utils/Strings";
 export { Strings__factory } from "./factories/@openzeppelin/contracts/utils/Strings__factory";
 export type { GovernanceToken } from "./contracts/GovernanceToken";
 export { GovernanceToken__factory } from "./factories/contracts/GovernanceToken__factory";
+export type { LendingPoolNovel } from "./contracts/LendingPool.sol/LendingPoolNovel";
+export { LendingPoolNovel__factory } from "./factories/contracts/LendingPool.sol/LendingPoolNovel__factory";
 export type { Lock } from "./contracts/Lock";
 export { Lock__factory } from "./factories/contracts/Lock__factory";
 export type { NUSD } from "./contracts/NUSD";
