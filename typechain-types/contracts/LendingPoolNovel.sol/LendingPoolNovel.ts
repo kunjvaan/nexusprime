@@ -41,8 +41,8 @@ export interface LendingPoolNovelInterface extends Interface {
       | "priceOracle"
       | "receiptToken"
       | "repay"
+      | "setReceiptToken"
       | "slope1"
-      | "timelock"
       | "unpause"
       | "userPositions"
       | "utilizationRate"
@@ -104,8 +104,11 @@ export interface LendingPoolNovelInterface extends Interface {
     values?: undefined
   ): string;
   encodeFunctionData(functionFragment: "repay", values: [BigNumberish]): string;
+  encodeFunctionData(
+    functionFragment: "setReceiptToken",
+    values: [AddressLike]
+  ): string;
   encodeFunctionData(functionFragment: "slope1", values?: undefined): string;
-  encodeFunctionData(functionFragment: "timelock", values?: undefined): string;
   encodeFunctionData(functionFragment: "unpause", values?: undefined): string;
   encodeFunctionData(
     functionFragment: "userPositions",
@@ -153,8 +156,11 @@ export interface LendingPoolNovelInterface extends Interface {
     data: BytesLike
   ): Result;
   decodeFunctionResult(functionFragment: "repay", data: BytesLike): Result;
+  decodeFunctionResult(
+    functionFragment: "setReceiptToken",
+    data: BytesLike
+  ): Result;
   decodeFunctionResult(functionFragment: "slope1", data: BytesLike): Result;
-  decodeFunctionResult(functionFragment: "timelock", data: BytesLike): Result;
   decodeFunctionResult(functionFragment: "unpause", data: BytesLike): Result;
   decodeFunctionResult(
     functionFragment: "userPositions",
@@ -388,9 +394,13 @@ export interface LendingPoolNovel extends BaseContract {
 
   repay: TypedContractMethod<[repayAmount: BigNumberish], [void], "nonpayable">;
 
-  slope1: TypedContractMethod<[], [bigint], "view">;
+  setReceiptToken: TypedContractMethod<
+    [_receiptToken: AddressLike],
+    [void],
+    "nonpayable"
+  >;
 
-  timelock: TypedContractMethod<[], [string], "view">;
+  slope1: TypedContractMethod<[], [bigint], "view">;
 
   unpause: TypedContractMethod<[], [void], "nonpayable">;
 
@@ -460,11 +470,11 @@ export interface LendingPoolNovel extends BaseContract {
     nameOrSignature: "repay"
   ): TypedContractMethod<[repayAmount: BigNumberish], [void], "nonpayable">;
   getFunction(
+    nameOrSignature: "setReceiptToken"
+  ): TypedContractMethod<[_receiptToken: AddressLike], [void], "nonpayable">;
+  getFunction(
     nameOrSignature: "slope1"
   ): TypedContractMethod<[], [bigint], "view">;
-  getFunction(
-    nameOrSignature: "timelock"
-  ): TypedContractMethod<[], [string], "view">;
   getFunction(
     nameOrSignature: "unpause"
   ): TypedContractMethod<[], [void], "nonpayable">;
